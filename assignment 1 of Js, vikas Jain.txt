@@ -1,0 +1,23 @@
+Mathematics     <input id=t1 /> <br>
+Computer Science<input id=t2 /> <br>
+English         <input id=t3 /> <br>
+Chemistry       <input id=t4 /> <br>
+Electronics Engineering<input id=t5 /> <br>
+<input type=button value=Total onclick="xyz()" /> <br>
+<input type=button value=Average onclick="xyz()" /> <br>
+
+<output id=out1 />
+<script>
+function xyz()
+{
+a=parseInt(t1.value);
+b=parseInt(t2.value);
+c=parseInt(t3.value);
+d=parseInt(t4.value);
+e=parseInt(t5.value);
+f=(a+b+c+d+e)/5;
+g=a+b+c+d+e;
+out1.value='Total marks are : '+g
+out2.value='Average marks are : '  +f
+}
+</script>
