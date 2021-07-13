@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+<head>
+   <title>Calculation</title>
+</head>
+<body>
+<script>
+
+function myFun() {
+  var a = document.getElementById("txt1").value;
+  var b = document.getElementById("txt2").value;
+  var x = number(a) + number(b);
+  document.getElementById("result").innerHTML = (a+b);
+}
+
+function myfun2()
+{
+             var a=document.getElementById('number').value;
+             var b=document.getElementById('numbers').value;
+             document.getElementById('result').innerHTML=(a-b);
+}
+
+function myfun3()
+{
+              var a=document.getElementById('number').value;
+             var b=document.getElementById('numbers').value;
+             document.getElementById('result').innerHTML=(a*b);
+}
+function myfun4()
+{
+            var a=document.getElementById('number').value;
+             var b=document.getElementById('numbers').value;
+             document.getElementById('result').innerHTML=(a/b);
+}
+</script>
+
+ 1st number:
+<input type="number" value=""id="number"><br><br>
+
+2nd number:
+<input type="number" value=""id="numbers"><br><br>
+
+<input type="submit" value="Add" onclick="return myfun()">
+<input type="submit" value="sub" onclick="return myfun2()">
+<input type="submit" value="mul" onclick="return myfun3()">
+<input type="submit" value="div" onclick="return myfun4()"><br><br>
+
+<b>The result is:</b><br><br>
+<span id="result"></span>
+</body>
+</html>
