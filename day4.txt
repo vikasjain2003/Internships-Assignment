@@ -1,0 +1,32 @@
+<center>
+<table>
+
+<th>Greatest of Three Numbers</th>
+<tr><td>Enter first number</td><td><input id=t1  type='number'/></td></tr> <br>
+<tr><td>Enter Second Number</td><td><input id=t2 type='number'/></td> </tr><br>
+<tr><td>Enter third Number</td><td><input id=t3 type='number'/> </td></tr><br>
+<tr><td colspan="2"><input type=button value=Compare onclick=xyz() ></td></tr>
+</table>
+
+<div id=d1 > </div>
+
+<script>
+function xyz() 
+{
+   a=parseInt(t1.value)
+   b=parseInt(t2.value)
+   c=parseInt(t3.value)
+
+
+  if(a > b && a > c)
+  d1.innerHTML = "The largest number is "  +t1.value
+
+  else if(b > a && b > c)
+  d1.innerHTML = "The largest number is " + t2.value
+
+  else
+  d1.innerHTML = "The largest number is " + t3.value
+
+}
+</script>
+</center>
