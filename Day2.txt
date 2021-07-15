@@ -1,52 +1,51 @@
-<!Doctype html>
-<html>
-<head>
-   <title>Calculation</title>
-</head>
-<body>
-<script>
-
-function myfun() {
-  var a = document.getElementById("number").value;
-  var b = document.getElementById("numbers").value;
-  var x = parseInt(a) + parseInt(b);
-  document.getElementById("result").innerHTML =x;
-}
-
-function myfun2()
-{
-             var a=document.getElementById('number').value;
-             var b=document.getElementById('numbers').value;
-             document.getElementById('result').innerHTML=(a-b);
-}
-
-function myfun3()
-{
-              var a=document.getElementById('number').value;
-             var b=document.getElementById('numbers').value;
-             document.getElementById('result').innerHTML=(a*b);
-}
-function myfun4()
-{
-            var a=document.getElementById('number').value;
-             var b=document.getElementById('numbers').value;
-             document.getElementById('result').innerHTML=(a/b);
-}
-</script>
-
- 1st number:
-<input type="number" value=""id="number"><br><br>
-
-2nd number:
-<input type="number" value=""id="numbers"><br><br>
-
-<input type="submit" value="Add" onclick="return myfun()">
-<input type="submit" value="sub" onclick="return myfun2()">
-<input type="submit" value="mul" onclick="return myfun3()">
-<input type="submit" value="div" onclick="return myfun4()"><br><br>
-
-<b>The result is:</b><br><br>
-<span id="result"></span>
-</body>
-</html>
-
+<table>
+    <tr><th colspan='2'>Registration Form
+    <tr><td>user Id<td><input id=z1>
+    <tr><td>Password<td><input type=password id=z2>
+    <tr><td>Name<td><input id=z3>
+    <tr><td>DOB<td><input type=date id=z4>
+    <tr><td>E-mail ID<td><input type='Email' id=z5>
+    <tr><td>Contact<td><input type='contact' id='z6'>
+    <tr><td>Address<td><textarea id='z7'></textarea></td><tr>
+    
+    <tr><td>Country</td>
+    <td>
+    <select id='z8'>
+    <option>India</option>
+    <option>Bangladesh</option>
+    <option>Pakistan</option>
+    <option>Bhutan</option>
+    <option>Russia</option>
+    <option>Japan</option>
+    </select>
+    </td><tr>
+    <tr><td></td><td><input type='button' value='Register' onclick=xyz()><p id=p1></p></td><tr>
+    
+    </table>
+    <script>
+    function xyz()
+    {
+    a=z1.value;
+    b=z2.value;
+    c=z3.value;
+    d=z4.value;
+    e=z5.value;
+    f=z6.value;
+    g=z7.value;
+    h=z8.value;
+    
+    out="<table border=10>"
+    out+="<tr><th>UserID <td>"+a
+    out+="<tr><th>Password<td>"+b
+    out+="<tr><th>Name <td>"+c
+    out+="<tr><th>DOB<td>"+d
+    out+="<tr><th>Email<td>"+e
+    out+="<tr><th>Contact<td>"+f
+    out+="<tr><th>Address <td>"+g
+    out+="<tr><th>Country <td>"+h
+    
+    p1.innerHTML=out
+    }
+    </script>
+    
+    
