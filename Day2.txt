@@ -1,12 +1,12 @@
 <table>
-    <tr><th colspan='2'>Registration Form
-    <tr><td>user Id<td><input id=z1>
-    <tr><td>Password<td><input type=password id=z2>
-    <tr><td>Name<td><input id=z3>
-    <tr><td>DOB<td><input type=date id=z4>
-    <tr><td>E-mail ID<td><input type='Email' id=z5>
-    <tr><td>Contact<td><input type='contact' id='z6'>
-    <tr><td>Address<td><textarea id='z7'></textarea></td><tr>
+<tr><th colspan='2'>Registration Form</th>
+    <tr><td>user Id</td><td><input id=z1></td></tr><br>
+    <tr><td>Password</td><td><input type=password id=z2></td></tr><br>
+    <tr><td>Name<td><input id=z3><br>
+    <tr><td>DOB<td><input type=date id=z4><br>
+    <tr><td>E-mail ID<td><input type='Email' id=z5><br>
+    <tr><td>Contact<td><input type='contact' id='z6'><br>
+    <tr><td>Address<td><textarea id='z7'></textarea></td><tr><br>
     
     <tr><td>Country</td>
     <td>
@@ -47,5 +47,3 @@
     p1.innerHTML=out
     }
     </script>
-    
-    
