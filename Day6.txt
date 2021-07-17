@@ -1,0 +1,38 @@
+<!-- Assignment Day-6/Menu Bar/ Vikas Jain -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul { 
+            list-style-type:none;
+            background-color:rgb(37, 1, 1);
+            height:75;
+            width: 97%;
+            border-radius: 40px;
+    }
+        li {
+            float: left;
+            padding: 20px;
+            /* color: whitesmoke; */
+            font-size: 30px;
+            color: antiquewhite;
+        }
+        a { text-decoration:none ; color:white; }
+        li:hover{
+            font-size: 25px;
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <ul id="ul">
+        <li> <a href="home.html"></a> Home</li>
+        <li><a href="about.html"></a> About</li>
+        <li><a href="products.html"></a> Our Products</li>
+        <li><a href="contacts.html"></a> Contacts</li>
+        <li><a href="register.html"></a> Register</li>
+</ul>
+    
+</body>
